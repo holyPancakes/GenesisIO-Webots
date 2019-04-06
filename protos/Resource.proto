@@ -1,0 +1,47 @@
+
+
+
+PROTO Resource [
+  field SFVec3f    translation     0 0 0        
+  field SFRotation rotation        0 1 0 0       
+  field SFString   name            "Resource"  
+  field SFBool     synchronization TRUE         
+  field SFBool     selfCollision   TRUE
+  field MFFloat    battery         [1000.0,1000.0,1000.0]
+  field SFFloat    cpuConsumption  1.0
+  field MFNode     extensionSlot   []            
+]
+{
+  Charger {
+  translation IS translation
+  rotation IS rotation
+  children [
+    Transform {
+      translation 0 0 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.25
+            roughness 0.25
+            metalness 0.25
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger"
+  battery [
+    0, 1000, 100
+  ]
+  radius 0.1
+}

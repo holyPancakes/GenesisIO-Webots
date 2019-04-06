@@ -1,0 +1,20 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+  info [
+    "Robot Reinforcement Learning Platform Supporting NEAT"
+  ]
+  title "GenesisIO"
+}
+Viewpoint {
+  orientation -0.30576908114770507 0.9332337572072781 0.18862667738916267 1.1005232734293064
+  position 1.375018467589948 0.6485294872367572 1.173193171389151
+}
+TexturedBackgroundLight {
+  texture "empty_office"
+}
+TexturedBackground {
+  texture "empty_office"
+}
+CircleArena {
+  radius 3
+}

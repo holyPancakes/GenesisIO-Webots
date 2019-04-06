@@ -1,0 +1,1085 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+  info [
+    "Robot Reinforcement Learning Platform Supporting NEAT"
+  ]
+  title "GenesisIO"
+}
+Viewpoint {
+  orientation 0.3199218799536724 -0.8917663450285618 -0.32000433841013504 4.636308481627447
+  position 4.395070483546243 3.029154633122748 0.15406483151922115
+}
+TexturedBackgroundLight {
+  texture "empty_office"
+}
+Background {
+  skyColor [
+    0.33 0.66 1
+  ]
+  cubemap Cubemap {
+    textureBaseName "empty_office"
+  }
+}
+CircleArena {
+  radius 2
+}
+Charger {
+  translation 1.7200000000000002 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(1)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.0899999999999999 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(2)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.36000000000000004 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(3)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.019999999999999955 -0.05 1.620000000000001
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(6)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.7200000000000002 -0.05 1.540000000000001
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(26)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.69 -0.05 1.540000000000001
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(27)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.69 -0.05 1.0900000000000005
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(28)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.2200000000000002 -0.05 1.1400000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(29)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.23000000000000007 -0.05 -0.4699999999999994
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(9)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.5299999999999998 -0.05 -0.4299999999999994
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(19)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.08 -0.05 -0.4799999999999994
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(33)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.5900000000000005 -0.05 -0.4299999999999994
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(20)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.0300000000000002 -0.05 -0.49999999999999944
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(17)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.5400000000000005 -0.05 -0.4299999999999994
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(18)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.6500000000000004 -0.05 -1.0299999999999996
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(10)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.07000000000000005 -0.05 -1.0299999999999996
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(32)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.1300000000000003 -0.05 -1.0299999999999996
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(21)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.01 -0.05 -1.0299999999999996
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(22)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.4199999999999996 -0.05 -1.0299999999999996
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(23)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.019999999999999955 -0.05 -1.6600000000000001
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(11)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.6300000000000001 -0.05 -1.55
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(31)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.5600000000000002 -0.05 -1.6
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(30)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.019999999999999955 -0.05 1.1200000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(7)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.7300000000000003 -0.05 0.5800000000000003
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(8)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.1800000000000004 -0.05 1.1300000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(12)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 0.6100000000000002 -0.05 1.1300000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(25)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation 1.3600000000000003 -0.05 0.5800000000000003
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(13)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.0800000000000001 -0.05 0.5800000000000003
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(14)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.78 -0.05 0.5800000000000003
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(24)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.4500000000000006 -0.05 0.5800000000000003
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(16)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.30999999999999994 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(4)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -1.7300000000000009 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(5)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+Charger {
+  translation -0.9300000000000002 -0.05 0.08000000000000006
+  children [
+    Transform {
+      translation 0 0.15 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            transparency 0.20000000298023224
+            roughness 0.2189099510000001
+            metalness 0
+            emissiveColor 1 0 0
+          }
+          geometry Sphere {
+            radius 0.1
+          }
+        }
+        PointLight {
+          attenuation 0 0 12
+          color 1 0 0
+          intensity 0.3
+        }
+      ]
+    }
+  ]
+  name "charger1(15)"
+  battery [
+    0, 1000, 200
+  ]
+  radius 0.2
+}
+BioloidDog {
+  translation 1.7429409522165307 0 0.04829629132479517
+  rotation 0 1 0 0.2617993870000007
+}
