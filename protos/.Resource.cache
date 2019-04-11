@@ -1,0 +1,11 @@
+Webots Proto Cache File version 1.4
+protoFileHash: 125da65aa22ce74ed1082ed405941ca9
+containsDevices: 0
+baseType: Charger
+slotType: 
+parameters: translation,rotation,name,synchronization,selfCollision,battery,cpuConsumption,extensionSlot
+tags: 
+license: 
+licenseUrl: 
+documentationUrl: 
+info: 

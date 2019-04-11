@@ -47,9 +47,10 @@ int main() {
   robot->initCamera();
   robot->standing();
 
+  //print guide
   for (int c = 0; commands[c] != NULL; c++)
     printf("%s", commands[c]);
-
+  
   robot->interactive_walk();
 
   delete robot;

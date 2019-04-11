@@ -71,7 +71,7 @@ Robot::Robot(const char *name) {
   _selectedMotorId = 0;
   _offset = 1;
   _camera = 0;
-
+  
   int i = 0;
   for (i = 0; Robot::MOTOR_NAMES[i]; i++) {
     motors[i] = wb_robot_get_device(MOTOR_NAMES[i]);

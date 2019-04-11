@@ -1,9 +1,9 @@
 build/release/bioloid.o: bioloid.cpp Robot.h \
- /usr/local/webots/include/controller/c/webots/camera.h \
- /usr/local/webots/include/controller/c/webots/camera_recognition_object.h \
- /usr/local/webots/include/controller/c/webots/types.h \
- /usr/local/webots/include/controller/c/webots/gps.h \
- /usr/local/webots/include/controller/c/webots/robot.h \
- /usr/local/webots/include/controller/c/webots/nodes.h \
- /usr/local/webots/include/controller/c/webots/supervisor.h \
- /usr/local/webots/include/controller/c/webots/keyboard.h
+ C:\Program\ Files\Webots/include/controller/c/webots/camera.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/camera_recognition_object.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/types.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/gps.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/robot.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/nodes.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/supervisor.h \
+ C:\Program\ Files\Webots/include/controller/c/webots/keyboard.h

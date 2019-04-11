@@ -1082,4 +1082,5 @@ Charger {
 BioloidDog {
   translation 1.7429409522165307 0 0.04829629132479517
   rotation 0 1 0 0.2617993870000007
+  controller "bioloid_NN"
 }
